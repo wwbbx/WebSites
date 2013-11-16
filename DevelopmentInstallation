@@ -1,0 +1,26 @@
+Software Installation and Configuration for Single Page Web Application
+
+NodeJS  -   installed from node.js web site.
+
+Karma   -   installed using "npm -g install karma"
+            Karma is unit test framework.
+            reference to AngularJS.pdf for detailed information.
+
+express -   express JS framework to make web site easier.
+            just need to have one server.js to use express to do
+            some configuration then use "node server.js" to start
+            the server.
+
+            express needs to be installed locally within this web site
+            we used package.json to describe express then use "npm install"
+            in the folder that contains package.json to do the express
+            installation for this web site.
+
+CoffeeScript    - Installed by "npm -g install coffee-script".
+
+sublime text 3  -   This is my editor.
+            for python development, I installed Anaconda
+            for coffee script, I installed
+                BetterCoffeeScript
+                Jasmine CoffeeScript
+                AngularJS(CoffeeScript)
