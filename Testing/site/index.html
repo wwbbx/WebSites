@@ -1,8 +1,17 @@
-<htmm>
+<html ng-app>
     <head>
-        This is header
+        <script
+        src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js">
+        </script>
+
+        <script>
+            function TextController($scope)
+            {
+                $scope.someText = 'You have started your journey.';
+            }
+        </script>
     </head>
-    <body>
-        This is body
+    <body ng-controller="TextController">
+        <p>{{someText}}</p>
     </body>
-</htmm>
+</html>
