@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "RootController.js",
+  "sourceRoot": "",
+  "sources": [
+    "RootController.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,CAAoC,GAApC,GAAqC,EAAD,cAA7B;CACO,CAA6B,QAAzC,CAAA,KAAA;EAAoD,CAAA,GAAA,CAAV,CAAD,CAAY;CAE5C,EAAW,GAAZ,EAAN,OAAA;CAAkB,CAAQ,EAAN,MAAA,iBAAF;CAFgC;CAAX,MAAW;CADlB,KAClC;CADF,EAAoC;CAApC"
+}

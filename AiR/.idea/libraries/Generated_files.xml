@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/scripts/filters/filters.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/directives/directives.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/services/services.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/main.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/bootstrap.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/RootController.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/app.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/controllers/mainController.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/scripts/filters/filters.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/directives/directives.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/main.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/services/services.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/controllers.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/bootstrap.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/app.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/RootController.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/controllers/mainController.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

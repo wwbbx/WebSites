@@ -17,15 +17,18 @@ require.config({
 })
 
 require(
-        ['app', 'bootstrap', 'controllers/RootController', 'controllers/mainController','directives/ngbkFocus'], (angular, app)->
-            'use strict'
-            app.config(['$routeProvider'
-                ($routeProvider)->
-                    # define angular routes here.
-                    $routeProvider.
-                        when('/', {
-                                controller: 'mainController'
-                                template: 'views/mainPage.html'
-                            }).otherwise({redirectTo: '/'})
-            ])
+  ['app',
+   'bootstrap',
+   'controllers/RootController',
+   'controllers/mainController',
+   'directives/ngbkFocus'],
+   (angular, app)->
+      'use strict'
+      app.config(['$routeProvider', ($routeProvider)->
+        # define angular routes here.
+        $routeProvider.when('/', {
+          controller: 'mainController'
+          template: 'views/mainPage.html'
+        }).otherwise({redirectTo: '/'})
+      ])
 )

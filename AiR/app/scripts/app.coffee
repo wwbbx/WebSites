@@ -1,7 +1,7 @@
 # app/scripts/app.js will define our web application using angular.
 define(['angular', 'angularResource', 'controllers/controllers',
-       'services/services', 'filters/filters',
-       'directives/directives'], (angular)->
-            return angular.module('AiR', ['ngResource', 'controllers',
-                                  'services', 'filters', 'directives'])
+        'services/services', 'filters/filters',
+        'directives/directives'], (angular)->
+  return angular.module('AiR', ['ngResource', 'controllers',
+                                'services', 'filters', 'directives'])
 )

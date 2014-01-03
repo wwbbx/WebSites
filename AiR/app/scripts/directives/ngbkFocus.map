@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "ngbkFocus.js",
+  "sourceRoot": "",
+  "sources": [
+    "ngbkFocus.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,CAAkC,GAAlC,GAAmC,CAAD,aAA3B;CACM,CAAqB,OAAhC,CAAU,CAAV;EAA+C,CAAA,IAAd,EAAe,CAAD,EAAf;CAC9B,cAAO;CAAA,CACG,CADH,KACP,EAAA;CADO,CAEA,EAFA,CAEP,KAAA;CAFO,CAGD,CAAA,CAAN,CAAM,EAAA,EAAC,CAAP;CACU,IAAR,EAAQ,YAAR;CAJK,UAGD;CAJuC,SAC7C;CAD8B,MAAe;CADf,KAChC;CADF,EAAkC;CAAlC"
+}

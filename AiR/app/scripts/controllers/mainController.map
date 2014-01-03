@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "mainController.js",
+  "sourceRoot": "",
+  "sources": [
+    "mainController.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,IAAA;EAAmC,CAAA,EAA3B,IAA4B,EAAD,cAA5B;CACO,CAA6B,QAAzC,CAAW,EAAX,GAAA;EAAoD,CAAA,GAAA,EAAX,CAAC;CACjC,EAAO,CAAd,EAAM,WAAN;CADuC,QAAW;CADnB,OACjC;CADK,IAA4B;CAAnC,GAAA;CAAA"
+}

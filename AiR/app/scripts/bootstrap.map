@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "bootstrap.js",
+  "sourceRoot": "",
+  "sources": [
+    "bootstrap.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAEA;CAAA,CAAA,CAAuC,EAAhC,CAAP,CAAuC,CAAA,CAAhC,CAAA;CACI,EAAA,KAAT,CAAS,EAAT;CACU,CAAoB,GAAA,EAArB,CAAP,CAAA,IAAA;CADF,IAAS;CADX,EAAuC;CAAvC"
+}
