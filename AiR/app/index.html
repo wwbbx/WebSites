@@ -5,12 +5,12 @@
 		<meta charset="utf-8"/>
 
 		<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="styles/bootstrap-responsive.min.css">
-		<link rel="stylesheet" type="text/css" href="styles/app.css">
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap-theme.min.css">
+		<!--link rel="stylesheet" type="text/css" href="styles/app.css"-->
 	</head>
 	<body class="home-page" ng-controller="RootController">
 		<div ng-view></div>
-
-		<script data-min="scripts/main" src="vendor/require/require.min.js"></script>
+		<p>{{greating.text}}
+		<script data-main="scripts/main" src="vendor/require.min.js"></script>
 	</body>
 </html>

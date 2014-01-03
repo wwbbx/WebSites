@@ -27,16 +27,18 @@ app.use(express.bodyParser());
 
 app.use(express["static"](path.join(__dirname, '../app')));
 
+console.log("current directory is: " + __dirname);
+
 app.use(function(err, req, res, next) {
   console.error(err.stack);
   return res.send(500, "Something broke!");
 });
 
+app.set('env', 'development');
+
 if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
-
-app.get('/', express["static"]('../app/index.html'));
 
 http.createServer(app).listen(app.get('port'), function() {
   return console.log('Express server listening on port ' + app.get('port'));

@@ -14,17 +14,20 @@ app.use(express.methodOverride())
 app.use(app.router)
 app.use(express.bodyParser())
 app.use(express.static(path.join(__dirname, '../app')))
+console.log "current directory is: #{__dirname}"
 app.use((err, req, res, next)->
 	console.error(err.stack)
 	res.send(500, "Something broke!")
 )
+
+app.set('env', 'development')
 
 # development only
 if ('development' == app.get('env'))
 	app.use(express.errorHandler())
 
 # simple route
-app.get('/', express.static('../app/index.html'))
+#app.get('/', express.static('../app/index.html'))
 
 # host it
 http.createServer(app).listen(app.get('port'), ->
