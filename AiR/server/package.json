@@ -1,0 +1,19 @@
+{
+  "name": "AiR",
+  "version": "0.0.0",
+  "description": "node.js host for AiR web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AiR",
+    "node.js",
+    "express"
+  ],
+  "author": "nixin",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~3.4.7"
+  }
+}
