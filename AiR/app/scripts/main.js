@@ -3,11 +3,12 @@
   require.config({
     baseUrl: 'scripts',
     paths: {
-      angular: '../vendor/angular.min',
+      angular: '../vendor/angular',
       jquery: '../vendor/jquery.min',
       domReady: '../vendor/domReady',
       twitter: '../vendor/bootstrap.min',
-      angularResource: '../vendor/angular-resource.min'
+      angularResource: '../vendor/angular-resource',
+      angularRoute: '../vendor/angular-route'
     },
     shim: {
       twitter: {
@@ -17,6 +18,9 @@
         deps: ['jquery', 'twitter'],
         exports: 'angular'
       },
+      angularRoute: {
+        deps: ['angular']
+      },
       angularResource: {
         deps: ['angular']
       }
@@ -25,6 +29,7 @@
 
   require(['app', 'bootstrap', 'controllers/RootController', 'controllers/mainController', 'directives/ngbkFocus'], function(angular, app) {
     'use strict';
+    debugger;
     return app.config([
       '$routeProvider', function($routeProvider) {
         return $routeProvider.when('/', {

@@ -2,6 +2,6 @@
 define(['angular', 'angularResource', 'controllers/controllers',
         'services/services', 'filters/filters',
         'directives/directives'], (angular)->
-  return angular.module('AiR', ['ngResource', 'controllers',
+  return angular.module('AiR', ['ngResource', 'ngRoute', 'controllers',
                                 'services', 'filters', 'directives'])
 )
