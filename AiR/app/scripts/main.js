@@ -27,13 +27,11 @@
     }
   });
 
-  require(['app', 'bootstrap', 'controllers/RootController', 'controllers/mainController', 'directives/ngbkFocus'], function(angular, app) {
+  require(['app', 'bootstrap', 'controllers/RootController', 'controllers/mainController', 'directives/ngbkFocus'], function(AiR) {
     'use strict';
-    debugger;
-    return app.config([
+    return AiR.config([
       '$routeProvider', function($routeProvider) {
-        return $routeProvider.when('/', {
-          controller: 'mainController',
+        return $routeProvider.when('/main', {
           template: 'views/mainPage.html'
         }).otherwise({
           redirectTo: '/'

@@ -24,13 +24,14 @@ require(
    'controllers/RootController',
    'controllers/mainController',
    'directives/ngbkFocus'],
-   (angular, app)->
+   (AiR)->
       'use strict'
-      debugger
-      app.config(['$routeProvider', ($routeProvider)->
+      #debugger
+      AiR.config(['$routeProvider',
+      ($routeProvider)->
         # define angular routes here.
-        $routeProvider.when('/', {
-          controller: 'mainController'
+        $routeProvider.when('/main', {
+          #controller: 'mainController'
           template: 'views/mainPage.html'
         }).otherwise({redirectTo: '/'})
       ])

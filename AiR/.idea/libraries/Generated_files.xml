@@ -2,6 +2,7 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/server/index.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/filters/filters.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/directives/directives.js" />
@@ -15,6 +16,7 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/server/index.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/filters/filters.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/ngbkFocus.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/directives/directives.js" />
