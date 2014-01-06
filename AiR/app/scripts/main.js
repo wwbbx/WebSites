@@ -30,13 +30,14 @@
   require(['app', 'bootstrap', 'controllers/RootController', 'controllers/mainController', 'directives/ngbkFocus'], function(AiR) {
     'use strict';
     return AiR.config([
-      '$routeProvider', function($routeProvider) {
-        return $routeProvider.when('/main', {
-          controller: 'mainController',
-          templateUrl: 'views/mainPage.html'
+      '$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+        $routeProvider.when('/', {
+          templateUrl: 'views/mainPage.html',
+          controller: 'mainController'
         }).otherwise({
           redirectTo: '/'
         });
+        return $locationProvider.html5Mode(true);
       }
     ]);
   });

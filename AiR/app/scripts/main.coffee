@@ -27,12 +27,15 @@ require(
    (AiR)->
       'use strict'
       #debugger
-      AiR.config(['$routeProvider',
-      ($routeProvider)->
+      AiR.config(['$routeProvider', '$locationProvider',
+      ($routeProvider, $locationProvider)->
+
         # define angular routes here.
-        $routeProvider.when('/main', {
+        $routeProvider.when('/', {
+          templateUrl: 'views/mainPage.html',
           controller: 'mainController'
-          templateUrl: 'views/mainPage.html'
         }).otherwise({redirectTo: '/'})
+
+        $locationProvider.html5Mode(true)
       ])
 )
