@@ -32,7 +32,8 @@
     return AiR.config([
       '$routeProvider', function($routeProvider) {
         return $routeProvider.when('/main', {
-          template: 'views/mainPage.html'
+          controller: 'mainController',
+          templateUrl: 'views/mainPage.html'
         }).otherwise({
           redirectTo: '/'
         });

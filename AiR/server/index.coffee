@@ -7,13 +7,18 @@ app = express()
 
 # configure express application
 app.set('port', process.env.PORT || 3000)
-#app.use(express.favicon())
-#app.use(express.logger('dev'))
-app.use(express.json())
-#app.use(express.urlencoded())
+app.use(express.logger('dev'))
 app.use(express.methodOverride())
 app.use(app.router)
 app.use(express.bodyParser())
+
+app.use(express.static(path.join(__dirname, '../app')))
+
+# bodyParser = json + urlencoded + multipart.
+#app.use(express.json())
+#app.use(express.urlencoded())
+
+#app.use(express.favicon())
 
 #app.use((req, res)->
 #  res.sendfile(path.join(__dirname, '../app/index.html'))
@@ -26,7 +31,10 @@ app.use(express.bodyParser())
 #    )
 #)
 
-app.use(express.static(path.join(__dirname, '../app')))
+#app.all('/*', (req, res)->
+#  res.sendfile('index.html', {root: path.join(__dirname, '../app')})
+#)
+
 #console.log "current directory is: #{__dirname}"
 #app.use((err, req, res, next)->
 #	console.error(err.stack)

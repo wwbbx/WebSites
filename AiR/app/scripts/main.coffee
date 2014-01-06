@@ -31,8 +31,8 @@ require(
       ($routeProvider)->
         # define angular routes here.
         $routeProvider.when('/main', {
-          #controller: 'mainController'
-          template: 'views/mainPage.html'
+          controller: 'mainController'
+          templateUrl: 'views/mainPage.html'
         }).otherwise({redirectTo: '/'})
       ])
 )
